@@ -1,0 +1,5 @@
+# pip install yfinance
+import yfinance as yf
+import matplotlib.pyplot as plt
+df=yf.download('TSLA',start='2021-1-1')
+df
